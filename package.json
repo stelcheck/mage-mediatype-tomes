@@ -1,0 +1,33 @@
+{
+  "name": "mage-mediatype-tomes",
+  "version": "1.0.0",
+  "description": "Tomes support for MAGE's Archivist",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --ext .js,.json .",
+    "precommit": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mage/mage-mediatype-tomes.git"
+  },
+  "keywords": [
+    "mage"
+  ],
+  "author": "Marc Trudel <mtrudel@wizcorp.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mage/mage-mediatype-tomes/issues"
+  },
+  "homepage": "https://github.com/mage/mage-mediatype-tomes#readme",
+  "dependencies": {
+    "tomes": "0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "git-message": "^2.0.2",
+    "husky": "^0.14.3"
+  }
+}
